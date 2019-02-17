@@ -13,6 +13,7 @@
   <remote fetch="https://github.com/varigit"       name="variscite"/>
 
   <project remote="custom"    revision="5a0541d984e6a07cd1e36246a78d3854b49821f5" upstream="master"  name="meta-dev" path="sources/meta-dev"/>
+  <project remote="yocto"     revision="5887f81bb585d0a697b91daf7f7dd6ccb1d444e2" upstream="sumo"  name="poky" path="sources/poky"/>
   <project remote="yocto"     revision="50fbef4593f79949ab6c67b2582d8b5c8b24838a" upstream="sumo"  name="meta-freescale" path="sources/meta-freescale"/>
   <project remote="oe"        revision="b0950aeff5b630256bb5e25ca15f4d59c115e7c1" upstream="sumo"  name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="freescale" revision="42c913b8fd266f72950a9ce305d316c0ecb64343" upstream="sumo"  name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
